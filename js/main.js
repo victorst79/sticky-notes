@@ -28,11 +28,11 @@ function initialNotes(elementID){
     // for(let i = 0; i < notas.length; i++){       
     //     document.getElementById(elementID).append(printNote(notas[i]));
     // }
-    
+
     var title = document.getElementById("title").value;
     var text = document.getElementById("text").value;
     var note = new Note(title,text);
-    document.getElementById("submit").addEventListener("click",printNote(note));
+    document.getElementById("submit").addEventListener("onclick",printNote(note));
 }
 
 
