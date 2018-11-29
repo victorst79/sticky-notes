@@ -32,9 +32,9 @@ function initialNotes(elementID){
     var title = document.getElementById("title").value;
     var text = document.getElementById("text").value;
     var note = new Note(title,text);
-    document.getElementById("submit").addEventListener("onclick",printNote(note));
+    console.log(note);
 }
-
+document.getElementById("submit").addEventListener("onclick",printNote(note));
 
 
 document.onload = initialNotes("note-board");
