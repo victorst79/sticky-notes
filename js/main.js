@@ -29,10 +29,10 @@ function initialNotes(elementID){
     //     document.getElementById(elementID).append(printNote(notas[i]));
     // }
 
-    var title = document.getElementById("title").value;
-    var text = document.getElementById("text").value;
-    var note = new Note(title,text);
-    console.log(note);
+    // var title = document.getElementById("title").value;
+    // var text = document.getElementById("text").value;
+    // var note = new Note(title,text);
+    // console.log(note);
 }
 document.getElementById("submit").addEventListener("onclick",printNote(note));
 
